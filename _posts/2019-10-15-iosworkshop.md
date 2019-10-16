@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: post
 title:  "iOS Workshop"
 permalink: /iosworkshop
 date:   2019-10-15 18:51:13 -0500
 categories: ios
+author: drtaylor
 ---
 '''
 //
