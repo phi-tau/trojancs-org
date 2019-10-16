@@ -6,3 +6,5 @@ section: home
 intro_paragraph: >
   Trinity Valley School Computer Science
 ---
+
+[Trinity Valley School](tvs.org) Computer Science
