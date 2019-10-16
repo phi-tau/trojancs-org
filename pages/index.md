@@ -5,7 +5,6 @@ permalink: /
 section: home
 ---
 
-[Trinity Valley School](tvs.org) Computer Science
 <center>
 <figure width="100%">
  <img width="400" src="/assets/img/top.png" alt="Color Wheel" />
