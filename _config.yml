@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site if applicable, e.g. /blog
 url: "https://jekyll-netlify-boilerplate.netlify.com" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: phitau_
 github_username:  trojancs
+theme: jekyll-theme-clean-blog
 
 # Permalink format (/blog/ is ignored for pages)
 permalink: /blog/:title
@@ -30,7 +31,7 @@ permalink: /blog/:title
 section: true
 
 # set to 'true' to enable Netlify CMS (/admin) in production builds
-netlifycms: true
+netlifycms: false
 
 # set to 'true' to enable Google Analytics tracking code in production builds
 analytics: false
