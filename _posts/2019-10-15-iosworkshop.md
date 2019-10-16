@@ -1,12 +1,12 @@
 ---
 layout: post
+author: drtaylor
 title:  "iOS Workshop"
 permalink: /iosworkshop
 date:   2019-10-15 18:51:13 -0500
 categories: ios
-author: drtaylor
 ---
-'''
+{% highlight swift %}
 //
 //  helpers.swift
 //  AllowanceCoreData
@@ -23,10 +23,12 @@ func formatCurrency(amount : Int) -> String
         return String(format:"($%.2f)",amt/100)
     }
 }
+{% endhighlight %}
 
 
 
 
+{% highlight swift %}
 //
 //  ViewController.swift
 //  AllowanceCoreData
@@ -128,9 +130,9 @@ class TransactionTableViewController: UITableViewController {
 
 
 }
-'''
 
-'''
+
+
 class AddTransactionViewController: UIViewController {
     @IBOutlet weak var payeeTF: UITextField!
     @IBOutlet weak var amtTF: UITextField!
@@ -245,4 +247,4 @@ class StatisticsVC : UIViewController{
     }
 }
 
-'''
+{% endhighlight %}
